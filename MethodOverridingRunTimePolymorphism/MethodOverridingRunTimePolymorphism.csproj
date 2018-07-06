@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7717B9E3-F03B-4D33-98F0-7516B24EB8AF}</ProjectGuid>
+    <ProjectGuid>{42E284F9-E571-4D03-A2B8-8C854CF5FB0E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomerComponent</RootNamespace>
-    <AssemblyName>CustomerComponent</AssemblyName>
+    <RootNamespace>MethodOverridingRunTimePolymorphism</RootNamespace>
+    <AssemblyName>MethodOverridingRunTimePolymorphism</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
