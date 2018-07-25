@@ -14,6 +14,15 @@ namespace Collections
             li.Add(10); li.Add(20); li.Add(30);
             li.Add(40); li.Add(50); li.Add(60);//li.Add(60.5); -- this is not possible with List
 
+            //When adding element in unsorted order in a List, it would display result in unsorted order only.
+
+            //li.Add(10); li.Add(50); li.Add(30);
+            //li.Add(20); li.Add(90); li.Add(60);
+
+            //to sort the List element from unsorted order to sorted order we need to sort the List using Sort() method.
+
+            //li.Sort();
+
             Console.WriteLine("After Adding Elements in List:");
             for (int i = 0; i < li.Count; i++)
                 Console.Write(li[i] + " ");

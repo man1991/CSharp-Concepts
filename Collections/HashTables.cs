@@ -31,7 +31,7 @@ namespace Collections
 
             foreach (object key in ht.Keys)
             {
-                Console.WriteLine(key + ":" + ht[key]);
+                Console.WriteLine(key + ": " + ht[key]);
             }
             Console.ReadLine();
 

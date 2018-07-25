@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Collections.TestGenerics</StartupObject>
+    <StartupObject>Collections.IEnumerables</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,10 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayLists.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="GenericList.cs" />
     <Compile Include="Generics1.cs" />
     <Compile Include="Generics2.cs" />
     <Compile Include="HashTables.cs" />
+    <Compile Include="IComparable_And_IComparer.cs" />
+    <Compile Include="IEnumerables.cs" />
+    <Compile Include="List_UserDefined.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
