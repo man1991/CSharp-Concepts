@@ -13,9 +13,9 @@ namespace ConsoleApplication1
             CustomerComponent.Customer obj = new CustomerComponent.Customer();
             obj.CustomerCode = "s001";
             obj.CustomerName = "shiv";
-            //obj.Validate();
-            //obj.CeateDBObjects();
-            obj.Add();
+            obj.Validate();
+            obj.CeateDBObjects();
+            //obj.Add();
 
         }
     }

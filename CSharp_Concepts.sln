@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerComponent", "CustomerComponent\CustomerComponent.csproj", "{7717B9E3-F03B-4D33-98F0-7516B24EB8AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{DB29D161-A906-4EDF-BF10-834ECE9F94A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationAndAbstraction", "ConsoleApplication1\EncapsulationAndAbstraction.csproj", "{DB29D161-A906-4EDF-BF10-834ECE9F94A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{308E646A-0349-4ECF-8097-02B71E47C148}"
 EndProject

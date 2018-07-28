@@ -16,25 +16,39 @@ namespace CustomerComponent
     {
         public string CustomerCode = "";
         public string CustomerName = "";
-        public void Add()
-        {
-            Validate();
-            CeateDBObjects();
-            //My Database Will go here;
-        }
+        //public void Add()
+        //{
+        //    Validate();
+        //    CeateDBObjects();
+        //    //My Database Will go here;
+        //}
         //Granular
-        //public bool Validate()
-        private bool Validate()
+        public bool Validate()
         {
+            Console.WriteLine("Abstraction.");
             //Customer Code and Customer Name           
             return true;
         }
-        //public bool CeateDBObjects()
-        private bool CeateDBObjects()
+        //private bool Validate()
+        //{
+        //    Console.WriteLine("Encapsulation.");
+        //    //Customer Code and Customer Name           
+        //    return true;
+        //}
+        public bool CeateDBObjects()
         {
+            Console.WriteLine("Abstraction Completed!");
+            Console.ReadLine();
             //DB Connection, SQL
             return true;
         }
+        //private bool CeateDBObjects()
+        //{
+        //    Console.WriteLine("Encapsulation Completed!");
+        //    Console.ReadLine();
+        //    //DB Connection, SQL
+        //    return true;
+        //}
         static void Main(string[] args)
         {
         }
